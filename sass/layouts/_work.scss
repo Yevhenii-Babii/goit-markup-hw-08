@@ -1,0 +1,43 @@
+.work {
+    display: flex;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    gap: 30px;
+    letter-spacing: 0.06em;
+
+}
+
+
+
+.work__item-overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    &::before {
+        position: absolute;
+        content: "";
+        background: rgba(47, 48, 58, 0.8);
+        width: 370px;
+        height: 70px;
+        bottom: 0;
+    
+    }
+    
+}
+
+.work__text-overlay {
+    position: absolute;
+    color: var(--primary-white-color);
+    bottom: 27px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+width: 100%; 
+}
+

@@ -1,0 +1,139 @@
+.footer {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+
+
+.footer__list {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__item {
+    margin-right: 70px;
+    &:first-child {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+.contact {
+    margin-top: 20px;
+} 
+
+
+
+
+.contact__link-adress {
+    color: var(--primary-white-color);
+    line-height: 1.71;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+.contact__item {
+    margin-bottom: 9px;
+    
+}
+
+ 
+.contact__link {
+       
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+
+.footer__title {
+    color: var(--primary-white-color);
+    font-family: 'Roboto';
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+
+}
+
+
+
+.container-telegram {
+    display: flex;
+}
+
+.footer__social {
+     display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-right: 93px;
+}
+
+
+.footer__pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-left: 10px; 
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+}
+
+&:first-child {
+    margin-left: 0px;
+}
+} 
+
+
+
+.footer__icon {
+    fill: var(--primary-white-color);
+}
+
+
+.footer__wrap {
+    display: flex;
+}
+
+    
+.footer__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: transparent;
+font-size: 16px;
+line-height: calc(20/16);
+letter-spacing: 0.03em;
+padding-left: 15px;
+
+color: rgba(255, 255, 255, 0.6); }

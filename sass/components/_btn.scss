@@ -1,0 +1,197 @@
+.button-primery {
+    font-family: inherit;
+        cursor: pointer;
+        letter-spacing: 0.06em;
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        border-radius: 6px;
+        padding: 6px 25px;
+        border: 1px var(--accent-color);
+        text-align: center;
+        min-width: 216px;
+        min-height: 50px;
+        transition: background-color, color;
+        transition-duration: 500ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       
+       
+        &:hover ,
+        &:focus {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color); }    
+}
+
+
+
+.button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+    cursor: pointer;
+    fill: #000000;
+}
+
+
+
+
+
+
+.submit-button {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border: transparent;
+    border-radius: 4px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+width: 200px;
+height: 50px;
+transition: box-shadow;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+&:focus,
+&:hover
+{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+}
+
+
+
+.button-telegram {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 12px;
+    gap: 10px;
+cursor: pointer;
+fill: var(--primary-white-color);
+}
+
+
+
+
+.list-button__item--accent{
+    font-family: inherit;
+        cursor: pointer;
+        letter-spacing: 0.03em;
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        border-radius: 6px;
+        padding: 6px 25px;
+        border: 1px var(--accent-color);
+        text-align: center;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+       
+}
+
+
+
+.list-button__button {
+    font-family: inherit;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--button-start-color);
+    font-weight: 500;
+    font-size: 16px;
+     line-height: 1.63;
+    border: 1px solid transparent;
+    border-radius: 4px;
+        padding: 6px 22px;
+        transition: background-color, box-shadow, color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover ,
+&:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+}
+
+
+
+
+.staff__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    background-color: var(--primary-white-color);
+    border-radius: 50%;
+    color: #AFB1B8; 
+    
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   
+&:hover,
+&:focus {
+    background-color: var(--accent-color); 
+     .thumb {
+        fill: var(--primary-white-color);
+    }
+    
+}
+
+}
+.thumb {
+    fill: currentColor;
+    
+   transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+       fill: var(--primary-white-color);
+   }
+   
+
+}
+
+
+   
+  
+   
+ 

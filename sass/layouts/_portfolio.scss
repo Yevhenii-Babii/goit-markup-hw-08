@@ -1,0 +1,48 @@
+.gallery-list-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  
+}
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.work-list {
+    display: flex;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    gap: 30px;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+
+.list-button {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   gap: 8px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
