@@ -48,6 +48,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -356,14 +357,17 @@ img {
   color: #757575;
 }
 
+.menu-toggle {
+  height: 40px;
+}
+
 .menu-toggle--close {
   position: absolute;
   top: 16px;
   right: 16px;
 }
-
-.menu-toggle.menu-toggle--close:focus {
-  fill: #2196F3;
+.menu-toggle--close:focus, .menu-toggle--close:hover {
+  fill: --accent-color;
 }
 
 .mobile-menu-nav {
@@ -424,8 +428,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .page-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 10px 0;
   }
 }
 

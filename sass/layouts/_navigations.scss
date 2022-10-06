@@ -221,16 +221,18 @@ color: #2196F3;
 .link__email {
     color: #757575; 
 }
-
+.menu-toggle {
+    height: 40px;
+}
 .menu-toggle--close {
     position: absolute;
     top: 16px;
     right: 16px;
+    &:focus, &:hover {
+        fill: --accent-color;
+    }
 }
-.menu-toggle.menu-toggle--close:focus {
-    fill: #2196F3;
- 
-}
+
 
 .mobile-menu-nav {
     margin-top: 48px;
