@@ -356,10 +356,14 @@ img {
   color: #757575;
 }
 
-.menu-toggle {
+.menu-toggle--close {
   position: absolute;
-  top: 0;
+  top: 16px;
   right: 16px;
+}
+
+.menu-toggle.menu-toggle--close:focus {
+  fill: #2196F3;
 }
 
 .mobile-menu-nav {
