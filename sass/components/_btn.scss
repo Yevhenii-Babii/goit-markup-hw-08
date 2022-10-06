@@ -77,9 +77,13 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 }
 
+.menu-toggle {
+    
+}
 
 
 .button-telegram {
+    @media screen and (max-width: 768px) {
     display: flex;
     width: 200px;
     height: 50px;
@@ -98,6 +102,30 @@ border: 1px solid transparent;
     gap: 10px;
 cursor: pointer;
 fill: var(--primary-white-color);
+margin-top: 20px;
+}
+   
+    @media screen and (min-width:1200px){ 
+   
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 12px;
+    gap: 10px;
+cursor: pointer;
+fill: var(--primary-white-color);
+    }
 }
 
 

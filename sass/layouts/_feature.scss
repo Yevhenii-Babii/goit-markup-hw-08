@@ -1,14 +1,32 @@
 
 .feature__list {
+
     display: flex;
+    flex-direction: row;
     gap: 30px;
+
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+    }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        flex-wrap: wrap;
+    }
+    @media screen and (min-width:1200px) {
+        flex-wrap: nowrap;
+    }
+    
+    
 }
+.feature__item {
 
-
+    @media screen and (min-width:768px) and (max-width: 1200px) {
+        flex-basis: calc((100% - 30px)/2);
+    }
+}
 
 .feature__container {
     height: 120px;
-    width: 270px;
+    width: 100%;
     background-color: #F5F4FA;
     border-radius: 4px;
     display: flex;
@@ -16,6 +34,34 @@
     justify-content: center;
     margin-bottom: 30px;
   
+  
+  
+  
+    @media screen and (min-width:768px) {
+        height: 120px;
+        width: 100%;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+      
+       }
+
+       @media screen and (min-width:1200px) { 
+        
+        height: 120px;
+        width: 270px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+
+
+       }
 }
 
 .feature__title {
@@ -26,15 +72,48 @@
     width: 270px;
     margin-bottom: 10px;
        margin-top: 0;
-   }
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+
+
+
+    @media screen and (min-width:768px) {
+        color: var(--title-text-color);
+        font-weight: 700;
+        line-height: 1.14;
+        font-size: 14px;
+        width: 270px;
+        margin-bottom: 10px;
+           margin-top: 0;
+      
+       }
+
+       @media screen and (min-width:1200px) { 
    
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    width: 270px;
+    margin-bottom: 10px;
+       margin-top: 0;
+   }
+}
 
 
    .feature__title-text {
     margin-top: 0;
     margin-bottom: 16px;
     line-height: 1.71;
-    
+    margin-bottom: 30px;
+
+    &:nth-last-child(4) {
+        margin-bottom: 0px;
+    }
 }
+
+
+
 
 

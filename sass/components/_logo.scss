@@ -6,7 +6,15 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-
+  
+    @media screen and (min-width:1200px) {
+    color: var(--logo-color);
+    font-family: Raleway, cursive;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
 }
 
 
