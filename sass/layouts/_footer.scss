@@ -7,6 +7,7 @@
 .footer__container {
   display: flex;
   flex-direction: column;
+  gap: 60px;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-wrap: wrap;
@@ -42,18 +43,8 @@
     
   }
   @media screen and (min-width: 768px)and (max-width: 1199px)  {
-    flex-basis: calc((100%)/2);
-    &:last-child {
-        margin-top: 60px;
-    }
-  }
+    flex-basis: calc((100% - 60px)/2);
   
-  @media screen and (min-width: 1200px) {
-    margin-right: 70px;
-
-    &:nth-last-child(1) {
-      margin-right: 0;
-    }
   }
 }
 
@@ -92,6 +83,11 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
+
+  @media screen and (min-width:1200px) {
+    text-align: start;
+    
+  }
 }
 
 .container-telegram {
@@ -102,7 +98,6 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin-bottom: 60px;
 
 }
 

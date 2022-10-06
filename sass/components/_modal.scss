@@ -27,15 +27,21 @@
 }
 
 .modal {
+   
+
+   
     position: absolute;
-    height: 581px;
-    width: 528px;
+    width: 450px;
     left: 50%;
     top: 50%;
     
 
     transform: translate(-50%, -50%) scale(1);
     background-color: var(--primary-white-color);
+
+    @media screen and (min-width:1200px) {
+        width: 528px;
+    }
 }
 
 
