@@ -1172,6 +1172,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  justify-content: center;
 }
 @media screen and (max-width: 1199px) {
   .partner__list {
@@ -1202,6 +1203,7 @@ img {
   height: 92px;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .partner__link {
