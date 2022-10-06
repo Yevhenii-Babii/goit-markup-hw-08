@@ -229,7 +229,7 @@ color: #2196F3;
     top: 16px;
     right: 16px;
     &:focus, &:hover {
-        fill: --accent-color;
+        fill: var(--accent-color);
     }
 }
 

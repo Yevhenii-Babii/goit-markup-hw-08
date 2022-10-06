@@ -52,7 +52,7 @@ img {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -370,7 +370,7 @@ img {
   right: 16px;
 }
 .menu-toggle--close:focus, .menu-toggle--close:hover {
-  fill: --accent-color;
+  fill: var(--accent-color);
 }
 
 .mobile-menu-nav {
@@ -697,22 +697,22 @@ img {
   line-height: 1.61;
   letter-spacing: 0.06em;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .hero__title {
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 696px;
+    width: 360px;
+    height: 84px;
     color: var(--primary-white-color);
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.61;
     letter-spacing: 0.06em;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .hero__title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -1051,12 +1051,7 @@ img {
 
 .feature__title-text {
   margin-top: 0;
-  margin-bottom: 16px;
   line-height: 1.71;
-  margin-bottom: 30px;
-}
-.feature__title-text:nth-last-child(4) {
-  margin-bottom: 0px;
 }
 
 .work {

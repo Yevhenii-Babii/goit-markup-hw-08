@@ -79,7 +79,7 @@ rgba(47, 48, 58, 0.4)
 
 
 .hero__title {
-
+ 
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
@@ -92,20 +92,25 @@ rgba(47, 48, 58, 0.4)
     line-height: 1.61;
 letter-spacing: 0.06em;
 
-    @media screen and (min-width:767px) { 
-        margin-top: 0;
-        margin-bottom: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 696px;
-        color: var(--primary-white-color); 
-        text-transform: uppercase;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-    letter-spacing: 0.06em;}
+    @media screen and (min-width:480px) and (max-width:767px) {
+   
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 84px;
+    color: var(--primary-white-color); 
+    text-transform: uppercase;
+    font-weight: 900;
+    
+    line-height: 1.61;
+letter-spacing: 0.06em;}
 
-    @media screen and (min-width:1200px) {
+
+    @media screen and (min-width:768px) {
+       
+        
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
